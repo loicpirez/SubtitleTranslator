@@ -1,0 +1,27 @@
+{
+  "name": "subtitletranslator",
+  "version": "0.0.1",
+  "description": "Convert subtitle into another language",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/loicpirez/SubtitleTranslator.git"
+  },
+  "keywords": [
+    "subtitle"
+  ],
+  "author": "Loïc PIREZ",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/loicpirez/SubtitleTranslator/issues"
+  },
+  "homepage": "https://github.com/loicpirez/SubtitleTranslator#readme",
+  "dependencies": {
+    "@google-cloud/translate": "^6.3.0",
+    "dotenv": "^10.0.0",
+    "subtitles-parser-vtt": "^0.1.0"
+  }
+}
